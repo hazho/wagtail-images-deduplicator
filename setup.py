@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 install_requires = [
-    "wagtail>=3.0,<5.0",
+    "wagtail>=3.0,<7.0",
     "imagehash",
 ]
 
